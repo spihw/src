@@ -1,12 +1,372 @@
-local v0=loadstring(game:HttpGet("https://raw.githubusercontent.com/jensonhirst/Orion/main/source"))();local v1=game:GetService("TeleportService");local v2=game:GetService("Players");local v3=v2.LocalPlayer;local v4=v0:MakeWindow({Name="ط³ظƒط±ط¨طھ ط´ط§ظ„ظٹظ‡ ط±ظˆط¨",HidePremium=true,SaveConfig=true,ConfigFolder="OrionTest"});local v5=v4:MakeTab({Name="ط§ظ„ظ‚ط§ط¦ظ…ط© ط§ظ„ط±ط¦ظٹط³ظٹط©",Icon="rbxassetid://4483345998",PremiumOnly=false});v5:AddSection({Name=" ط®ظٹط§ط±طھ طھظپظٹط¯ظƒ"});v5:AddButton({Name="ط§ظ†ط³ط® ط­ط³ط§ط¨ظٹ طھظٹظƒ طھظˆظƒطں ",Callback=function() setclipboard("ظ…ط§ظپظٹظ‡");end});v5:AddLabel("ط¹ط¯ط¯ ط§ظ„ظ„ط§ط¹ط¨ظٹظ† ظپظٹ ط§ظ„ط³ظٹط±ظپط±: "   .. tostring( #v2:GetPlayers()) );v5:AddButton({Name="ط§ظ†ط³ط® ط±ظ‚ظ… ط§ظ„ط³ظٹط±ظپط±",Callback=function() setclipboard(tostring(game.JobId));end});v5:AddTextbox({Name="ط§ط¯ط®ظ„ ط±ظ‚ظ… ط§ظ„ط³ظٹط±ظپط±",Default="",TextDisappear=true,Callback=function(v19) local v20=game.PlaceId;local v21=v19;if (v21 and (v21~="")) then v1:TeleportToPlaceInstance(v20,v21,v3);end end});v5:AddSection({Name="ط£ط´ظٹط§ط، طھط¨ظٹ طھظپظٹط¯ظƒ"});v5:AddSection({Name="ط³ظƒط±ط¨طھط§طھ ط±ط§ط­ طھظپظٹط¯ظƒ طµط¯ظ‚ظ†ظٹ"});v5:AddButton({Name="طھط´ط؛ظٹظ„ ط³ظƒط±ط¨طھ ط§ظ„ط·ظٹط±ط§ظ†",Callback=function() loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Fly-v3-42317"))();end});v5:AddButton({Name="ط§ظ†ط³ط® طµظ…ظ„ظ‡ ",Callback=function() setclipboard("ًں‡¦ًں‡± :طµظ…ظ€ ظ€ظ„ظ‡?آ؟ًں‡¦ًں‡± :طµظ…ظ€ ظ€ظ„ظ‡?آ؟ًں‡¦ًں‡± :طµظ…ظ€ ظ€ظ„ظ‡?آ؟ًں‡¦ًں‡± :طµظ…ظ€ ظ€ظ„ظ‡?آ؟ًں‡¦ًں‡± :طµظ…ظ€ ظ€ظ„ظ‡?آ؟ًں‡¦ًں‡± :طµظ…ظ€ ظ€ظ„ظ‡?آ؟ًں‡¦ًں‡± :طµظ…ظ€ ظ€ظ„ظ‡?آ؟ًں‡¦ًں‡± :طµظ…ظ€ ظ€ظ„ظ‡?آ؟ًں‡¦ًں‡± :طµظ…ظ€ ظ€ظ„ظ‡?آ؟ًں‡¦ًں‡± :طµظ…ظ€ ظ€ظ„ظ‡?آ؟");end});v5:AddToggle({Name="ظ…ط§ظ†ط¹ ط§ظ„ظ‚طھظ„ ظ…ظ† ط§ظ„ظƒظ„ط¨ط´ظ‡",Default=false,Callback=function(v22) if v22 then local v47=1185 -(979 + 206) ;local v48;local v49;while true do if ((0 -0)==v47) then _G.AntiCuffKill=true;v48=game.Players.LocalPlayer.Character:WaitForChild("HumanoidRootPart");v47=1 + 0 ;end if (v47==(792 -(368 + 423))) then v49=v48.Position;task.spawn(function() while _G.AntiCuffKill do local v56=0;while true do if (v56==(0 -0)) then pcall(function() local v65=v48.Position.Y;if (v65< -(28 -(10 + 8))) then v48.CFrame=CFrame.new(v49);end end);task.wait(0.3 + 0 );break;end end end end);break;end end else _G.AntiCuffKill=false;end end});v5:AddSection({Name="ط§ط¯ظ…ظ† /inftite Yli"});v5:AddButton({Name="ط§ظ„ط§ط¯ظ…ظ† ط§ظ„ط£ظˆظ„",Callback=function() loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))();end});local v2=game:GetService("Players");local v6=v2.LocalPlayer;local v7=v6.Character or v6.CharacterAdded:Wait() ;local v8=v7:WaitForChild("HumanoidRootPart");local v9=v4:MakeTab({Name="ط³ظƒط±ط¨طھط§طھ ظˆ ط§ظ„ط£ظˆط§ظ…ط±",Icon="rbxassetid://4483345998",PremiumOnly=false});v9:AddSection({Name="ظ…ظ„ط§ط­ط¸ظ‡ ط§ظ„طھظ†ظ‚ظ„ ظٹط´طھط؛ظ„ ط¨ ط´ط§ظ„ظٹظ‡ ظ…ط­ظ…ط¯"});v9:AddButton({Name="ط§ظ„ط§ظ†طھظ‚ط§ظ„ ط¥ظ„ظ‰ ط§ظ„ظ…ط³ط¨ط­",Callback=function() v8.CFrame=CFrame.new(4600.4 -3404 ,25.9,934.5 -(416 + 26) );end});v9:AddButton({Name="ط§ظ„ط§ظ†طھظ‚ط§ظ„ ط¥ظ„ظ‰ ط§ظ„ط¨ظٹظƒ",Callback=function() v8.CFrame=CFrame.new(2834.8 -(87 + 968) ,66.4 -45 ,547.1 + 55 );end});v9:AddButton({Name="ط§ظ„ط§ظ†طھظ‚ط§ظ„ ط¥ظ„ظ‰ ط§ظ„ظ…ط³ط±ط­",Callback=function() v8.CFrame=CFrame.new(803.7 + 1067 ,1441.7 -(447 + 966) ,119 -51 );end});v9:AddSection({Name="ظ…ظˆط§ظ†ط¹"});v9:AddButton({Name="ظ…ط¶ط§ط¯ bang",Callback=function() local v26=1817 -(1703 + 114) ;local v27;local v28;local v29;local v30;while true do if (v26==0) then v27=game.Players.LocalPlayer;v28=v27.Character or v27.CharacterAdded:Wait() ;v26=702 -(376 + 325) ;end if ((439 -(145 + 293))==v26) then v29=v28:WaitForChild("HumanoidRootPart");v30=v29.Position;v26=2;end if (v26==2) then v28:PivotTo(CFrame.new(0 -0 , -(630 -(44 + 386)),0 + 0 ));task.wait(0.5 -0 );v26=1489 -(998 + 488) ;end if ((1 + 2)==v26) then v28:PivotTo(CFrame.new(v30 + Vector3.new(0 + 0 ,5,0) ));break;end end end});v9:AddToggle({Name="ظ…ط¶ط§ط¯ ط§ظ„ظƒظ„ط¨ط´ظ‡ ظ‚ظٹط¯ ط§ظ„طھط·ظˆظٹط± )",Default=false,Callback=function(v31) local v32=772 -(201 + 571) ;local v33;local v34;local v35;while true do if (v32==1) then v35=nil;while true do if (v33==(1138 -(116 + 1022))) then v34=game.Players.LocalPlayer;v35=v34.Name;v33=1181 -(1123 + 57) ;end if (1==v33) then if v31 then game.StarterGui:SetCore("SendNotification",{Title="ظ…ظ„ط§ط­ط¸ظ‡",Text=": ظ‡ط°ط§ ط§ظ„ط®ظٹط§ط± ظ‚ط¯ ظٹط؛ظٹط± ط§ط³ظƒظ†ظƒطŒ ط§ظ†طھط¨ظ‡!",Duration=20 -15 });_G.AntiArrestLoop=true;task.spawn(function() while _G.AntiArrestLoop do local v64=254 -(163 + 91) ;while true do if (v64==(1930 -(1869 + 61))) then game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("/char me "   .. v35 ,"All");task.wait(3);break;end end end end);else _G.AntiArrestLoop=false;end break;end end break;end if (v32==(0 + 0)) then v33=0 -0 ;v34=nil;v32=3 -2 ;end end end});local v10=v4:MakeTab({Name="ط§ظ„طھط®ط±ظٹط¨",Icon="rbxassetid://4483345998",PremiumOnly=false});v10:AddButton({Name="طھط؛ظٹظٹط± ط£ط³ظ…ط§ط، ط§ظ„ظ‚ط±ظٹط¨ظٹظ†  ",Callback=function() for v43,v44 in pairs(v2:GetPlayers()) do if ((v44~=v3) and (v44:DistanceFromCharacter(v3.Character.HumanoidRootPart.Position)<=(71 -51))) then game:GetService("Players"):Chat(";"   .. "title  "   .. v44.Name   .. " titlepk" );end end end});v10:AddButton({Name="طھط؛ظٹظٹط± ط³ظƒظ†ط§طھ ط§ظ„ظ‚ط±ظٹط¨ظٹظ†  ",Callback=function() for v45,v46 in pairs(v2:GetPlayers()) do if ((v46~=v3) and (v46:DistanceFromCharacter(v3.Character.HumanoidRootPart.Position)<=(3 + 17))) then game:GetService("Players"):Chat(";"   .. "char "   .. v46.Name   .. " miri" );end end end});local v2=game:GetService("Players");local v6=v2.LocalPlayer;local v7=v6.Character or v6.CharacterAdded:Wait() ;local v11=v7:WaitForChild("Humanoid");local v8=v7:WaitForChild("HumanoidRootPart");local v12=v8.Position;local v13=v8.Size;local v14=false;local v5=v4:MakeTab({Name=" ط§ظ„ط­ظ…ط§ظٹط§طھ ظˆط§ظ„ظ…ط¶ط§ط¯ط§طھ",Icon="rbxassetid://4483345998",PremiumOnly=false});local v15=false;v5:AddToggle({Name=" ظ…ط¶ط§ط¯ ط§ظ„ظ†ط³ط®",Default=false,Callback=function(v36) local v37=0 -0 ;while true do if (v37==(859 -(814 + 45))) then v15=v36;if v36 then local v53=0 -0 ;while true do if (v53==(0 + 0)) then print("ظ…ط¶ط§ط¯ ط§ظ„ظ†ط³ط® ظ…ظپط¹ظ„");while v15 do task.wait(971.5 -(140 + 831) );local v62=game.Players.LocalPlayer.Character;if v62 then for v66,v67 in pairs(v62:GetDescendants()) do if (v67:IsA("Decal") or v67:IsA("Highlight") or v67:IsA("ParticleEmitter")) then v67:Destroy();end end end end break;end end else print("ظ…ط¶ط§ط¯ ط§ظ„ظ†ط³ط® ظ…طھظˆظ‚ظپ");end break;end end end});local v16=false;v5:AddToggle({Name="ظ…ط¶ط§ط¯ ظ†ط³ط®2",Default=false,Callback=function(v38) local v39=0 + 0 ;local v40;while true do if ((885 -(261 + 624))==v39) then v40=0 -0 ;while true do if (v40==(1080 -(1020 + 60))) then v16=v38;if v38 then print("ط§ظ„ظ…ط±ط§ظ‚ط¨ط© ظ…ظپط¹ظ„ط©");local v57=game.Players.LocalPlayer;local v58=v57.Character or v57.CharacterAdded:Wait() ;local v59=v58:WaitForChild("Humanoid");local v60=v58:WaitForChild("HumanoidRootPart");local v61=v60.Position;while v16 do local v63=438 -(262 + 176) ;while true do if (1==v63) then if (v58 and v58:FindFirstChild("HumanoidRootPart")) then local v70=1423 -(630 + 793) ;local v71;while true do if (v70==0) then v71=v58.HumanoidRootPart.Position;if (((v71-v61).magnitude>(698 -(198 + 490))) or (v59.HipWidthScale>(8 -6))) then local v73=0 -0 ;local v74;while true do if (v73==(0 -0)) then v74=0;while true do if (v74==(0 -0)) then game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("re me","All");task.wait(1.5 + 0 );break;end end break;end end end v70=1 + 0 ;end if (v70==1) then v61=v71;break;end end end break;end if (v63==(0 -0)) then task.wait(1748 -(760 + 987) );v58=v57.Character;v63=3 -2 ;end end end else print("ط§ظ„ظ…ط±ط§ظ‚ط¨ط© طھظˆظ‚ظپطھ");end break;end end break;end end end});v0:Init();local v17=v4:MakeTab({Name="ط­ظ‚ظˆظ‚ ط§ظ„ظ…ط·ظˆط±ظٹظ†",Icon="rbxassetid://4483345998",PremiumOnly=false});v17:AddParagraph("طھط¨ظٹ ط³ظƒط±ط¨طھط§طھ FEطں","ط¨ط£ط±ط®طµ ط§ظ„ط£ط³ط¹ط§ط±طں طھظپط¶ظ„ ط³ظٹط±ظپط±ظ†ط§ ط§ظ„ط¯ظٹط³ظƒظˆط±ط¯!");v17:AddParagraph("ط­ظ‚ظˆظ‚ ط§ظ„ظ…ط·ظˆط±","+2+2727#72+ ًںک‚ًں’€");v17:AddButton({Name="ظ†ط³ط® ط³ظٹط±ظپط± ط§ظ„ط¯ظٹط³ظƒظˆط±ط¯",Callback=function() local v41=1913 -(1789 + 124) ;local v42;while true do if (v41==(766 -(745 + 21))) then v42=698 -(208 + 490) ;while true do if (v42==(0 + 0)) then setclipboard("ظˆظ„ظ„ظ‡ ظ…ط¯ط±ظٹ ");v0:MakeNotification({Name="طھظ… ط§ظ„ظ†ط³ط®!",Content="طھظ… ط§ظ„ظ†ط³ط® ظٹط§ظˆط­ط´ ط±ط­ ط³ظٹط±ظپط±",Image="rbxassetid://7734053494",Time=1 + 2 });break;end end break;end end end});local v5=v4:MakeTab({Name="ط§ظ„ط´ط§طھ ",Icon="rbxassetid://4483345998",PremiumOnly=false});v5:AddButton({Name="ظ†ط¸ط§ظ… ط§ط³ط¨ط§ظ… ط§ظ„ط®ط§طµ ",Callback=function() print("button pressed");end});loadstring(game:HttpGet("https://pastebin.com/raw/guBHtZm9"))();v5:AddButton({Name="ظ†ط¸ط§ظ… ظƒط´ظپ ط§ظ„ط±ط³ط§ط¦ظ„",Callback=function() print("button pressed");end});loadstring(game:HttpGet("https://pastefy.app/aZiQxY7k/raw"))();local v18=v5:AddSection({Name="ظپظƒط±ظ‡ ظ…ط³ط§ط¹ط¯ ط§ظ„ظ†ط³ط® ظ‡ظٹ ط£ظ†ظ‡ ط§ط°ظٹ ط§ط­ط¯ ط¯ط®ظ„ ط­ط³ط§ط¨ظٹظ† ظ‡ط§ط°ط§ ط§ظ„ط®ظٹط§ط± ظٹط³ط§ط¹ط¯ظƒ ظ„ط§ظƒظ† ظ‚ظٹط¯ ط§ظ„طھط·ظˆظٹط±"});v5:AddButton({Name="ظ…ط³ط§ط¹ط¯ ط§ظ„ظ†ط³ط®",Callback=function() print("button pressed");end});
--- âڑ ï¸ڈ WARNING: integrity protected!
---[[
- .____                  ________ ___.    _____                           __                
- |    |    __ _______   \_____  \\_ |___/ ____\_ __  ______ ____ _____ _/  |_  ___________ 
- |    |   |  |  \__  \   /   |   \| __ \   __\  |  \/  ___// ___\\__  \\   __\/  _ \_  __ \
- |    |___|  |  // __ \_/    |    \ \_\ \  | |  |  /\___ \\  \___ / __ \|  | (  <_> )  | \/
- |_______ \____/(____  /\_______  /___  /__| |____//____  >\___  >____  /__|  \____/|__|   
-         \/          \/         \/    \/                \/     \/     \/                   
-          \_Welcome to LuaObfuscator.com   (Alpha 0.10.9) ~  Much Love, Ferib 
+local OrionLib = loadstring(game:HttpGet('https://raw.githubusercontent.com/jensonhirst/Orion/main/source'))()
+local TPService = game:GetService("TeleportService")
+local Players = game:GetService("Players")
+local LocalPlayer = Players.LocalPlayer
 
-]]--
+-- واجهة رئيسية
+local Window = OrionLib:MakeWindow({
+	Name = "سكربت شاليه روب",
+	HidePremium = true,
+	SaveConfig = true,
+	ConfigFolder = "OrionTest"
+})
+
+-- التاب الرئيسي
+local Tab = Window:MakeTab({
+	Name = "القائمة الرئيسية",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+-- القسم الأول: أدوات عامة
+Tab:AddSection({Name = " خيارت تفيدك"})
+
+Tab:AddButton({
+	Name = "انسخ حسابي تيك توك؟ ",
+	Callback = function()
+		setclipboard("مافيه") -- ← غيّرها لاسم حسابك
+	end
+})
+
+Tab:AddLabel("عدد اللاعبين في السيرفر: " .. tostring(#Players:GetPlayers()))
+
+Tab:AddButton({
+	Name = "انسخ رقم السيرفر",
+	Callback = function()
+		setclipboard(tostring(game.JobId))
+	end
+})
+
+Tab:AddTextbox({
+	Name = "ادخل رقم السيرفر",
+	Default = "",
+	TextDisappear = true,
+	Callback = function(input)
+		local PlaceId = game.PlaceId
+		local JobId = input
+		if JobId and JobId ~= "" then
+			TPService:TeleportToPlaceInstance(PlaceId, JobId, LocalPlayer)
+		end
+	end
+})
+
+-- القسم الثاني: أشياء تبي تفيدك
+Tab:AddSection({Name = "أشياء تبي تفيدك"})
+-- قسم داخل التبويب الحالي
+Tab:AddSection({Name = "سكربتات راح تفيدك صدقني"})
+
+-- زر جاهز لكن ما فيه سكربت حالياً
+Tab:AddButton({
+	Name = "تشغيل سكربت الطيران",
+	Callback = function()
+loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Fly-v3-42317"))() 
+	end
+})
+
+Tab:AddButton({
+	Name = "انسخ صمله ",
+	Callback = function()
+		setclipboard("🇦🇱 :صمـ ـله?¿🇦🇱 :صمـ ـله?¿🇦🇱 :صمـ ـله?¿🇦🇱 :صمـ ـله?¿🇦🇱 :صمـ ـله?¿🇦🇱 :صمـ ـله?¿🇦🇱 :صمـ ـله?¿🇦🇱 :صمـ ـله?¿🇦🇱 :صمـ ـله?¿🇦🇱 :صمـ ـله?¿")
+	end
+})
+Tab:AddToggle({
+	Name = "مانع القتل من الكلبشه",
+	Default = false,
+	Callback = function(state)
+		if state then
+			_G.AntiCuffKill = true
+			local root = game.Players.LocalPlayer.Character:WaitForChild("HumanoidRootPart")
+			local safePos = root.Position
+			task.spawn(function()
+				while _G.AntiCuffKill do
+					pcall(function()
+						local currentY = root.Position.Y
+						if currentY < -10 then
+							root.CFrame = CFrame.new(safePos)
+						end
+					end)
+					task.wait(0.3)
+				end
+			end)
+		else
+			_G.AntiCuffKill = false
+		end
+	end
+})
+
+-- قسم جديد اسمه ادمن /inftite Yli
+Tab:AddSection({Name = "ادمن /inftite Yli"})
+
+-- الادمن الأول (يشغل Infinite Yield)
+Tab:AddButton({
+	Name = "الادمن الأول",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
+	end
+})
+
+local Players = game:GetService("Players")
+local lp = Players.LocalPlayer
+local char = lp.Character or lp.CharacterAdded:Wait()
+local root = char:WaitForChild("HumanoidRootPart")
+
+-- تبويب جديد: سكربتات و الأوامر
+local Tab2 = Window:MakeTab({
+	Name = "سكربتات و الأوامر",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+-- قسم: التنقل 🙂
+Tab2:AddSection({Name = "ملاحظه التنقل يشتغل ب شاليه محمد"})
+
+-- زر: المسبح
+Tab2:AddButton({
+	Name = "الانتقال إلى المسبح",
+	Callback = function()
+		root.CFrame = CFrame.new(1196.4, 25.9, 492.5)
+	end
+})
+
+-- زر: البيك
+Tab2:AddButton({
+	Name = "الانتقال إلى البيك",
+	Callback = function()
+		root.CFrame = CFrame.new(1779.8, 21.4, 602.1)
+	end
+})
+
+-- زر: المسرح
+Tab2:AddButton({
+	Name = "الانتقال إلى المسرح",
+	Callback = function()
+		root.CFrame = CFrame.new(1870.7, 28.7, 68.0)
+	end
+})
+
+Tab2:AddSection({Name = "موانع"})
+
+
+-- زر: مضاد bang (محسّن)
+Tab2:AddButton({
+	Name = "مضاد bang",
+	Callback = function()
+		local player = game.Players.LocalPlayer
+		local char = player.Character or player.CharacterAdded:Wait()
+		local root = char:WaitForChild("HumanoidRootPart")
+		local oldPos = root.Position
+
+		-- ينزل تحت بسرعة
+		char:PivotTo(CFrame.new(0, -200, 0))
+		task.wait(0.5)
+		-- يرجع لمكانه
+		char:PivotTo(CFrame.new(oldPos + Vector3.new(0, 5, 0)))
+	end
+})
+Tab2:AddToggle({
+	Name = "مضاد الكلبشه قيد التطوير )",
+	Default = false,
+	Callback = function(state)
+		local player = game.Players.LocalPlayer
+		local playerName = player.Name
+		if state then
+			game.StarterGui:SetCore("SendNotification", {
+				Title = "ملاحظه";
+				Text = ": هذا الخيار قد يغير اسكنك، انتبه!";
+				Duration = 5;
+			})
+
+			_G.AntiArrestLoop = true
+			task.spawn(function()
+				while _G.AntiArrestLoop do
+					game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("/char me "..playerName, "All")
+					task.wait(3)
+				end
+			end)
+		else
+			_G.AntiArrestLoop = false
+		end
+	end
+})
+
+-- تبويب التخريب
+local trollTab = Window:MakeTab({
+    Name = "التخريب",
+    Icon = "rbxassetid://4483345998", -- صورة عشوائية (يمكنك تغييرها)
+    PremiumOnly = false
+})
+
+-- زر: تغيير أسماء القريبين إلى titlepk
+trollTab:AddButton({
+    Name = "تغيير أسماء القريبين  ",
+    Callback = function()
+        for _, player in pairs(Players:GetPlayers()) do
+            if player ~= LocalPlayer and player:DistanceFromCharacter(LocalPlayer.Character.HumanoidRootPart.Position) <= 20 then
+                game:GetService("Players"):Chat(";".."title  "..player.Name.." titlepk")
+            end
+        end
+    end
+})
+
+-- زر: تغيير سكنات القريبين إلى 
+trollTab:AddButton({
+    Name = "تغيير سكنات القريبين  ",
+    Callback = function()
+        for _, player in pairs(Players:GetPlayers()) do
+            if player ~= LocalPlayer and player:DistanceFromCharacter(LocalPlayer.Character.HumanoidRootPart.Position) <= 20 then
+                game:GetService("Players"):Chat(";".."char "..player.Name.." miri")
+            end
+        end
+    end
+})
+local Players = game:GetService("Players")
+local lp = Players.LocalPlayer
+local char = lp.Character or lp.CharacterAdded:Wait()
+local hum = char:WaitForChild("Humanoid")
+local root = char:WaitForChild("HumanoidRootPart")
+
+local oldPos = root.Position
+local oldSize = root.Size
+local reCooldown = false
+
+local Tab = Window:MakeTab({
+    Name = " الحمايات والمضادات",
+    Icon = "rbxassetid://4483345998",
+    PremiumOnly = false
+})
+
+-- [[ مضاد النسخ ]]
+local AntiCopy = false
+Tab:AddToggle({
+    Name = " مضاد النسخ",
+    Default = false,
+    Callback = function(Value)
+        AntiCopy = Value
+        if Value then
+            print("مضاد النسخ مفعل")
+            -- كود الحماية يبدأ
+            while AntiCopy do
+                task.wait(0.5)
+                local char = game.Players.LocalPlayer.Character
+                if char then
+                    for _,v in pairs(char:GetDescendants()) do
+                        if v:IsA("Decal") or v:IsA("Highlight") or v:IsA("ParticleEmitter") then
+                            v:Destroy()
+                        end
+                    end
+                end
+            end
+        else
+            print("مضاد النسخ متوقف")
+        end
+    end
+})
+
+-- [[ مراقبة التغيير والحركة الشديدة ]]
+local Monitor = false
+Tab:AddToggle({
+    Name = "مضاد نسخ2",
+    Default = false,
+    Callback = function(Value)
+        Monitor = Value
+        if Value then
+            print("المراقبة مفعلة")
+            local lp = game.Players.LocalPlayer
+            local char = lp.Character or lp.CharacterAdded:Wait()
+            local hum = char:WaitForChild("Humanoid")
+            local root = char:WaitForChild("HumanoidRootPart")
+            local lastPos = root.Position
+
+            while Monitor do
+                task.wait(1)
+                char = lp.Character
+                if char and char:FindFirstChild("HumanoidRootPart") then
+                    local newPos = char.HumanoidRootPart.Position
+                    if (newPos - lastPos).magnitude > 10 or hum.HipWidthScale > 2 then
+                        game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("re me", "All")
+                        task.wait(1.5)
+                    end
+                    lastPos = newPos
+                end
+            end
+        else
+            print("المراقبة توقفت")
+        end
+    end
+})
+
+-- [[ تشغيل الواجهة ]]
+OrionLib:Init()
+
+local DevTab = Window:MakeTab({
+	Name = "حقوق المطورين",
+	Icon = "rbxassetid://4483345998", -- صورة الإعدادات (Gear Icon)
+	PremiumOnly = false
+})
+
+-- قسم داخل التبويب
+DevTab:AddParagraph("تبي سكربتات FE؟", "بأرخص الأسعار؟ تفضل سيرفرنا الديسكورد!")
+
+DevTab:AddParagraph("حقوق المطور", "+2+2727#72+ 😂💀")
+
+-- زر لنسخ رابط الدسكورد
+DevTab:AddButton({
+	Name = "نسخ سيرفر الديسكورد",
+	Callback = function()
+		setclipboard("ولله مدري ") -- ضع رابط ديسكوردك هنا
+		OrionLib:MakeNotification({
+			Name = "تم النسخ!",
+			Content = "تم النسخ ياوحش رح سيرفر",
+			Image = "rbxassetid://7734053494",
+			Time = 3
+		})
+	end
+})
+
+local Tab = Window:MakeTab({
+	Name = "الشات ",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab:AddButton({
+	Name = "نظام اسبام الخاص ",
+	Callback = function()
+      		print("button pressed")
+  	end    
+})
+loadstring(game:HttpGet('https://pastebin.com/raw/guBHtZm9'))()
+
+Tab:AddButton({
+	Name = "نظام كشف الرسائل",
+	Callback = function()
+      		print("button pressed")
+  	end    
+})
+
+loadstring(game:HttpGet('https://pastefy.app/aZiQxY7k/raw'))()
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]] 
+local Section = Tab:AddSection({
+	Name = "فكره مساعد النسخ هي أنه اذي احد دخل حسابين هاذا الخيار يساعدك لاكن قيد التطوير"
+})
+
+--[[
+Name = <string> - The name of the section.
+]]
+
+
+Tab:AddButton({
+	Name = "مساعد النسخ",
+	Callback = function()
+      		print("button pressed")
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]   
